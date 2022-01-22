@@ -29,21 +29,35 @@ namespace InterfaceAndInheritance
         /// </summary>
         private void InitializeComponent()
         {
+            this.buttonInterface = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // Form1
+            // buttonInterface
+            // 
+            this.buttonInterface.Location = new System.Drawing.Point(54, 36);
+            this.buttonInterface.Name = "buttonInterface";
+            this.buttonInterface.Size = new System.Drawing.Size(157, 45);
+            this.buttonInterface.TabIndex = 0;
+            this.buttonInterface.Text = "Interface";
+            this.buttonInterface.UseVisualStyleBackColor = true;
+            this.buttonInterface.Click += new System.EventHandler(this.buttonInterface_Click);
+            // 
+            // InterfaceInheritancePractice
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ClientSize = new System.Drawing.Size(849, 456);
+            this.Controls.Add(this.buttonInterface);
+            this.Name = "InterfaceInheritancePractice";
+            this.Text = "Interface and Inheritance";
+            this.Load += new System.EventHandler(this.InterfaceInheritancePractice_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Button buttonInterface;
     }
 }
 

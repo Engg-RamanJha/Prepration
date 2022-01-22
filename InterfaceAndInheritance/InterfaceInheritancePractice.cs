@@ -17,9 +17,16 @@ namespace InterfaceAndInheritance
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void InterfaceInheritancePractice_Load(object sender, EventArgs e)
         {
 
         }
+        
+        private void buttonInterface_Click(object sender, EventArgs e)
+        {
+
+        }
+
+       
     }
 }
