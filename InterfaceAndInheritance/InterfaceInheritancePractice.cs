@@ -25,6 +25,7 @@ namespace InterfaceAndInheritance
         private void buttonInterface_Click(object sender, EventArgs e)
         {
 
+
         }
 
        
